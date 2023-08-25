@@ -1,5 +1,5 @@
 # Travel Guide
-Guide you through your travels.
+Guide you with your travels.
 ## Technology
 This website is built with HTML and CSS.
 ## Screenshot
