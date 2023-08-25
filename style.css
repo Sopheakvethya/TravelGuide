@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.des {
+    font-size: 40px;
+    text-align: center;
+}
+
+.des-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-item {
+    flex: 1;
+    padding: 30px;
+    display: block;
+    transition: 0.5s;
+}
+
+.flex-item:hover {
+    background-color: rgb(143, 197, 215);
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
