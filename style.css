@@ -1,6 +1,10 @@
 body {
-    background-color: lightblue;
+    background-color: #121212;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, p, blockquote, td, th {
+    color: white
 }
 
 .des {
@@ -18,11 +22,12 @@ body {
     flex: 1;
     padding: 30px;
     display: block;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .flex-item:hover {
-    background-color: rgb(143, 197, 215);
+    /* background-color: rgb(143, 197, 215); */
+    transform: scale(1.1);
 }
 
 img {
@@ -40,8 +45,5 @@ table, th, td {
 
 table {
     margin-top: 10px;
-}
-
-th {
-    background-color: grey;
+    background-color: #202020;
 }
