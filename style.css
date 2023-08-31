@@ -30,3 +30,18 @@ img {
     width: 400px;
     height: 400px;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+}
+
+table {
+    margin-top: 10px;
+}
+
+th {
+    background-color: grey;
+}
